@@ -15,7 +15,7 @@ This project implements a k-Means clustering algorithm from scratch to group dat
   1. Initializing `k` cluster centroids.
   2. Assigning each data vector to the nearest centroid.
   3. Updating centroids based on the mean of assigned vectors.
-  4. Repeating the assignment and update steps until convergence.
+  4. Repeating the assignment and update steps until all vectors are assigned to their nearest centroid and the centroids no longer change.
 
 ### Normalization
 - The program compares two variants of clustering:
